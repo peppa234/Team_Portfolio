@@ -7,17 +7,27 @@ import { Footer } from "../../components/Footer";
 const teamMembers = [
   {
     name: "Chaima",
-    image: "/image-2.png",
+    image: "/Chaima.png",
     description: "A 3rd Year AI student passionate about AI",
   },
   {
     name: "Wassim",
-    image: "/image-3.png",
+    image: "/Wassim.png",
     description: "A 3rd Year AI student passionate about AI",
   },
   {
     name: "Aicha",
-    image: "/image-4.png",
+    image: "/Aicha.png",
+    description: "A 3rd Year AI student passionate about AI",
+  },
+  {
+    name: "Mohamed",
+    image: "/Mohamed.png",
+    description: "A 3rd Year AI student passionate about AI",
+  },
+  {
+    name: "Wanis",
+    image: "/Wanis.png",
     description: "A 3rd Year AI student passionate about AI",
   },
 ];

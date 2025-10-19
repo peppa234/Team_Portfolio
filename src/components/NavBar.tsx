@@ -21,7 +21,7 @@ export const NavBar = (): JSX.Element => {
                 key={index}
                 href={item.href}
                 className={`[font-family:'Sora',Helvetica] font-bold text-black text-base sm:text-lg lg:text-xl tracking-[1.80px] leading-normal hover:opacity-80 hover:scale-105 transition-all duration-300 ease-out relative ${
-                  index === 0 ? "after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:bg-black after:rounded-full shadow-[0px_2px_4px_rgba(0,0,0,0.1)]" : ""
+                  index === 0 ? "after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-[2px] after:bg-black after:rounded-full" : ""
                 }`}
               >
                 {item.label}
