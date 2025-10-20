@@ -1,3 +1,5 @@
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import { Button } from "../../components/ui/button";
 import { Card, CardContent } from "../../components/ui/card";
 import { NavBar } from "../../components/NavBar";
@@ -34,41 +36,83 @@ const teamMembers = [
 
 
 export const Desktop = (): JSX.Element => {
+  const location = useLocation();
+
+  // Handle hash navigation when landing on the page
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        // Small delay to ensure DOM is ready
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 100);
+      }
+    }
+  }, [location.hash]);
+
   return (
     <div className="bg-white w-full overflow-x-hidden">
      <NavBar />
 
       {/* Hero Section */}
-      <section className="relative w-full py-4 md:py-6 lg:py-8 animate-fade-in">
+      <section id="home" className="relative w-full py-4 md:py-6 lg:py-8 animate-fade-in">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           
-            {/* Hero Title - Stretched Horizontally */}
-          <div className="relative mb-4 md:mb-6 lg:mb-8">
-            <div className="flex flex-wrap items-center justify-center gap-x-3 sm:gap-x-4 md:gap-x-5 lg:gap-x-10 xl:gap-x-14 gap-y-2 md:gap-y-4">
-              {/* Left Part */}
-              <h1 className="[text-shadow:0px_4px_7.1px_#00000045] [-webkit-text-stroke:1px_#000000] font-normal text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl [font-family:'Sora',Helvetica] leading-tight animate-fade-in whitespace-nowrap" style={{ animationDelay: "0.1s" }}>
-                <span className="font-bold tracking-tight">Discover</span>
-                <span> </span>
-                <span className="font-extralight tracking-tight">The</span>
-              </h1>
+          {/* Hero Title - "Discover The Bright Minds of Evkeria Team" */}
+          <div className="flex justify-center mb-4 md:mb-6 lg:mb-8">
+            <div 
+              className="font-[Sora] relative w-[350px] h-[120px] max-sm:w-[350px] max-sm:h-[120px] max-lg:w-[800px] max-lg:h-[90px] lg:w-[1094px] lg:h-[121px]"
+            >
+              <div className="flex flex-wrap items-center justify-center gap-2 h-full">
+                {/* Left part - "Discover The" */}
+                <span 
+                  className="text-[24px] max-lg:text-[36px] lg:text-[48px] font-[700] leading-normal tracking-[0.24px] max-lg:tracking-[0.36px] lg:tracking-[0.48px] text-[#000000] drop-shadow-[0_4px_7.1px_rgba(0,0,0,0.27)] animate-fade-in"
+                  style={{ 
+                    WebkitTextStrokeWidth: '1px', 
+                    WebkitTextStrokeColor: '#000',
+                    animationDelay: "0.1s" 
+                  }}
+                >
+                  Discover The
+                </span>
 
-              {/* Center Part - Bright Minds */}
-              <div className="flex items-center gap-2 sm:gap-3 md:gap-4">
-                <h1 className="[text-shadow:0px_4px_7.1px_#00000045] [-webkit-text-stroke:3px_#000000] md:[-webkit-text-stroke:4px_#000000] [font-family:'Sora',Helvetica] font-normal text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-[0.2em] sm:tracking-[0.3em] leading-tight animate-fade-in inline-block rotate-[-3.74deg]" style={{ animationDelay: "0.2s" }}>
-                  Bright
-                </h1>
-                <h1 className="[text-shadow:0px_4px_7.1px_#00000045] [font-family:'Sora',Helvetica] font-extrabold text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-[0.15em] sm:tracking-[0.2em] leading-tight animate-fade-in inline-block rotate-[-3.74deg]" style={{ animationDelay: "0.25s" }}>
-                  Minds
-                </h1>
+                {/* Middle words - "Bright Minds" */}
+                <div className="flex items-center gap-2">
+                  <span 
+                    className="text-[24px] max-lg:text-[36px] lg:text-[48px] font-[400] leading-normal tracking-[4.56px] max-lg:tracking-[6.84px] lg:tracking-[9.12px] text-[#FFFFFF] drop-shadow-[0_4px_7.1px_rgba(0,0,0,0.27)] inline-block animate-fade-in"
+                    style={{ 
+                      WebkitTextStrokeWidth: '4px', 
+                      WebkitTextStrokeColor: '#000',
+                      transform: 'rotate(-3.737deg)',
+                      animationDelay: "0.2s"
+                    }}
+                  >
+                    Bright
+                  </span>
+                  <span 
+                    className="text-[24px] max-lg:text-[36px] lg:text-[48px] font-[700] leading-normal tracking-[2.64px] max-lg:tracking-[3.96px] lg:tracking-[5.28px] text-[#000000] drop-shadow-[0_4px_7.1px_rgba(0,0,0,0.27)] inline-block animate-fade-in"
+                    style={{ 
+                      transform: 'rotate(-3.737deg)',
+                      animationDelay: "0.25s"
+                    }}
+                  >
+                    Minds
+                  </span>
+                </div>
+
+                {/* Right part - "of Evkeria Team" */}
+                <span 
+                  className="text-[24px] max-lg:text-[36px] lg:text-[48px] font-[400] leading-normal tracking-[0.24px] max-lg:tracking-[0.36px] lg:tracking-[0.48px] text-[#000000] drop-shadow-[0_4px_7.1px_rgba(0,0,0,0.27)] animate-fade-in"
+                  style={{ 
+                    WebkitTextStrokeWidth: '1px', 
+                    WebkitTextStrokeColor: '#000',
+                    animationDelay: "0.15s"
+                  }}
+                >
+                  of <span className="font-[700]">Evkeria</span> Team
+                </span>
               </div>
-
-              {/* Right Part */}
-              <h1 className="[text-shadow:0px_4px_7.1px_#00000045] [-webkit-text-stroke:1px_#000000] [font-family:'Sora',Helvetica] font-normal text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-tight leading-tight animate-fade-in whitespace-nowrap" style={{ animationDelay: "0.15s" }}>
-                <span className="font-light">of </span>
-                <span className="font-bold">Evkeria</span>
-                <span className="font-light"> </span>
-                <span className="font-extralight">Team</span>
-              </h1>
             </div>
           </div>
 
@@ -184,11 +228,13 @@ export const Desktop = (): JSX.Element => {
 
       {/* View All Portfolios Button */}
       <div className="w-full py-12 md:py-16 flex justify-center animate-fade-in" style={{ animationDelay: "0.8s" }}>
-        <Button className="w-full max-w-md mx-4 h-auto py-6 md:py-8 px-8 md:px-10 bg-black rounded-[2rem] shadow-[0px_4px_11.3px_#00000040] hover:bg-black/90 hover:scale-105 hover:shadow-[0px_6px_20px_#00000060] transition-all duration-300">
-          <span className="[font-family:'Sora',Helvetica] font-bold text-white text-lg md:text-xl lg:text-2xl text-center tracking-wide leading-relaxed">
-            View All Portfolios
-          </span>
-        </Button>
+        <Link to="/portfolios" className="w-full max-w-md mx-4">
+          <Button className="w-full h-auto py-6 md:py-8 px-8 md:px-10 bg-black rounded-[2rem] shadow-[0px_4px_11.3px_#00000040] hover:bg-black/90 hover:scale-105 hover:shadow-[0px_6px_20px_#00000060] transition-all duration-300">
+            <span className="[font-family:'Sora',Helvetica] font-bold text-white text-lg md:text-xl lg:text-2xl text-center tracking-wide leading-relaxed">
+              View All Portfolios
+            </span>
+          </Button>
+        </Link>
       </div>
 
       {/* Amazing Minds Section */}
