@@ -181,44 +181,39 @@ export const teamMembers: TeamMember[] = [
     slug: "wanis",
     name: "Wanis",
     image: "/Wanis.png",
-    description: "A 3rd Year AI student passionate about AI",
-    role: "UI/UX Designer & Frontend Developer",
-    bio: "A creative designer and developer who bridges the gap between design and code. I create beautiful, intuitive interfaces that users love.",
+    description: "AI Student, and Entrepreneur building creative tech experiences",
+    role: "Founder & Creative Director at Zidny | AI Student",
+    bio: "An entrepreneur passionate about blending art, technology, and education. As the founder of Zidny, I lead projects that empower youth through creativity, innovation, and learning. With a background in AI and storytelling, I bring emotion and clarity into everything I design, film, or build.",
     technicalSkills: [
       "Figma",
-      "Adobe XD",
+      "After Effects",
       "React",
       "Tailwind CSS",
       "CSS3",
-      "JavaScript",
       "Animation",
       "Responsive Design",
     ],
     professionalSkills: [
-      "User research",
-      "Prototyping",
-      "Visual design",
-      "Collaboration",
-      "Attention to detail",
+      "Leadership",
+      "Storytelling",
+      "Public Speaking",
+      "Marketing Strategy",
+      "Team Management",
+      "Creative Problem Solving",
     ],
     projects: [
       {
-        id: 1,
-        title: "Design System",
-        description:
-          "A comprehensive design system with reusable components, design tokens, and documentation that ensures consistency across all team projects and accelerates development.",
-      },
-      {
-        id: 2,
-        title: "Mobile App UI",
-        description:
-          "An elegant mobile application interface with smooth animations and intuitive navigation, designed with user-centered principles and extensive user testing.",
-      },
+      id: 1,
+      title: "Zidny",
+      description:
+        "An educational and creative startup that empowers young people to learn, grow, and create through digital innovation, workshops, and storytelling.",
+    },
+
     ],
     contactInfo: {
-      github: "https://github.com/wanis",
-      linkedin: "https://linkedin.com/in/wanis",
-      email: "wanis@example.com",
+      github: "https://github.com/WanisHADJMOHAMMED",
+      linkedin: "https://www.linkedin.com/in/wanis-hadj-mohammed-35992233b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      email: "wanishadjmohammed@gmail.com",
     },
   },
 ];
