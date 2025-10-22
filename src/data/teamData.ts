@@ -91,11 +91,11 @@ export const teamMembers: TeamMember[] = [
   },
   {
     slug: "aicha",
-    name: "Aicha",
+    name: "Aicha Brihmouche",
     image: "/Aicha.png",
-    description: "A 3rd Year AI student passionate about AI",
-    role: "Full Stack Developer",
-    bio: "A versatile full-stack developer with expertise in both frontend and backend technologies. I enjoy creating seamless user experiences and robust backend systems.",
+    description: "A 3rd Year AI student | Associtae Data Sceintist | Web Developer | Graphic & UIUX Designer",
+    role: "Team Leader",
+    bio: "Graphic and UI/UX Designer, Web Developer, and Associate Data Scientist. I'm currently studying Artificial Intelligence at ENSIA.",
     technicalSkills: [
       "React",
       "Node.js",
@@ -103,12 +103,15 @@ export const teamMembers: TeamMember[] = [
       "MongoDB",
       "Express.js",
       "REST APIs",
-      "GraphQL",
-      "Docker",
+      "PostgreSQL",
+      "Nextjs",
+      "Figma",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
     ],
     professionalSkills: [
-      "Full-stack development",
-      "Code review",
+      "Effective Communication",
+      "Data analysis",
       "Agile methodology",
       "Problem solving",
       "Leadership",
@@ -116,21 +119,19 @@ export const teamMembers: TeamMember[] = [
     projects: [
       {
         id: 1,
-        title: "E-Commerce Platform",
+        title: "7wess – AI Touristic App",
         description:
-          "A full-featured e-commerce platform with user authentication, payment integration, inventory management, and real-time order tracking built with modern web technologies.",
-      },
+          "Trip planning assistant using AI Algorithms for 7-day itineraries."},
       {
         id: 2,
-        title: "Social Media Dashboard",
+        title: "Student Portal Platform",
         description:
-          "A comprehensive social media management dashboard that aggregates data from multiple platforms, providing analytics and scheduling capabilities for content creators.",
-      },
+          "A modern, full-stack school management application built with Node.js, Express, MongoDB, React, and TypeScript. This comprehensive system provides administrators with complete tools to manage students, teachers, classes, and subjects through a beautiful, responsive interface."},
     ],
     contactInfo: {
-      github: "https://github.com/aicha",
-      linkedin: "https://linkedin.com/in/aicha",
-      email: "aicha@example.com",
+      github: "https://github.com/peppa234",
+      linkedin: "https://www.linkedin.com/in/aicha-brihmouche-a51730300/",
+      email: "aichabrihmouche@gmail.com",
     },
   },
   {
