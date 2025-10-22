@@ -28,15 +28,15 @@ export const teamMembers: TeamMember[] = [
     projects: [
       {
         id: 1,
-        title: "Portfolio Website",
+        title: "Resource Optimization System",
         description:
-          "A modern, responsive portfolio website built with React and TypeScript, showcasing team members and their individual portfolios with seamless navigation and beautiful UI/UX design.",
+          "A full stack AI system that optimizes the management of resources : water, fertilizer, irrigation in smart farming, minimizing resource usage while maximizing crop yield and maintaining crop health.",
       },
       {
         id: 2,
-        title: "Data Analysis Dashboard",
+        title: "Predictive Maintenance System",
         description:
-          "An interactive dashboard for visualizing and analyzing complex datasets using Python, Pandas, and modern data visualization libraries with real-time updates and filtering capabilities.",
+          "An AI system that monitors aircraft sensors in real time, detects early anomalies, and provides predictive maintenance alerts. It suggests solutions to pilots, prevents failures before they occur, and enhances overall flight safety.",
       },
     ],
     contactInfo: {
