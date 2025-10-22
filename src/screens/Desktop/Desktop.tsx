@@ -25,7 +25,7 @@ const teamMembers = [
   {
     name: "Mohamed",
     image: "/Mohamed.png",
-    description: "A 3rd Year AI student passionate about AI",
+    description: "A 3rd Year ENSIA Student & Passionate Developer",
   },
   {
     name: "Wanis",
