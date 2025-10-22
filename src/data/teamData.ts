@@ -51,36 +51,47 @@ export const teamMembers: TeamMember[] = [
     image: "/Wassim.png",
     description: "A 3rd Year AI student passionate about AI",
     role: "AI & Machine Learning Engineer",
-    bio: "Passionate about artificial intelligence and machine learning, I specialize in developing intelligent systems and algorithms. My focus is on creating practical AI solutions that solve real-world problems.",
+    bio: "Passionate about artificial intelligence, full-stack development, and creative media. I specialize in building intelligent systems, editing engaging video content, and innovating modern tech stacks that blend AI with user-friendly design.",
     technicalSkills: [
       "Python",
+      "Dart",
+      "Java",
+      "C++",
       "TensorFlow",
       "PyTorch",
+      "Flutter",
       "Machine Learning",
       "Deep Learning",
-      "Data Science",
-      "Neural Networks",
       "Computer Vision",
+      "Data Science",
     ],
     professionalSkills: [
-      "Research",
-      "Problem solving",
-      "Analytical thinking",
-      "Team collaboration",
-      "Technical writing",
+      "Video Editing",
+      "Full-Stack Innovation",
+      "Problem Solving",
+      "Analytical Thinking",
+      "Team Collaboration",
+      "Creativity",
+      "Technical Writing",
     ],
     projects: [
       {
         id: 1,
-        title: "Image Recognition System",
+        title: "Touristic Tour Recommendation App",
         description:
-          "An advanced computer vision system that uses deep learning to recognize and classify objects in images with high accuracy, deployed as a scalable web service.",
+          "An AI-based travel planner that recommends personalized one-week itineraries in Algeria based on user preferences, budget, and interests.",
       },
       {
         id: 2,
-        title: "Predictive Analytics Model",
+        title: "Intelligent Video Editing Automation",
         description:
-          "A machine learning model that predicts trends and patterns from historical data, helping businesses make data-driven decisions with confidence intervals and explanations.",
+          "A project combining AI and video processing to automate scene detection, captioning, and enhancement in multimedia content.",
+      },
+      {
+        id: 3,
+        title: "Supermarket Management System",
+        description:
+          "A desktop and mobile system designed to manage supermarket operations, including product inventory, billing, and real-time sales analytics using a modern full-stack approach.",
       },
     ],
     contactInfo: {
@@ -226,4 +237,3 @@ export const teamMembers: TeamMember[] = [
 export const getTeamMemberBySlug = (slug: string): TeamMember | undefined => {
   return teamMembers.find((member) => member.slug === slug);
 };
-
