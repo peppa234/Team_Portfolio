@@ -40,9 +40,9 @@ export const teamMembers: TeamMember[] = [
       },
     ],
     contactInfo: {
-      github: "https://github.com/chaima",
-      linkedin: "https://linkedin.com/in/chaima",
-      email: "chaima@example.com",
+      github: "https://github.com/chaimataberkokt",
+      linkedin: "https://www.linkedin.com/in/chaima-taberkokt-750b242b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      email: "chaima.taberkokt@ensia.edu.dz",
     },
   },
   {
