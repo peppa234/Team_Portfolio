@@ -3,7 +3,7 @@ import { TeamMember } from "../types/teamMember";
 export const teamMembers: TeamMember[] = [
   {
     slug: "chaima",
-    name: "Chaima",
+    name: "Chaima Taberkokt",
     image: "/Chaima.png",
     description: "A 3rd Year AI student passionate about AI",
     role: "Web & Python Developer",
@@ -50,7 +50,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     slug: "wassim",
-    name: "Wassim",
+    name: "Wassim Taleb",
     image: "/Wassim.png",
     description: "A 3rd Year AI student passionate about AI",
     role: "AI & Machine Learning Engineer",
@@ -159,7 +159,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     slug: "mohamed",
-    name: "Mohamed",
+    name: "Mohamed Kecir",
     image: "/Mohamed.png",
     description: "A 3rd Year ENSIA Student & Passionate Developer",
     role: "Frontend Developer",
@@ -204,7 +204,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     slug: "wanis",
-    name: "Wanis",
+    name: "Wanis Hadj Mohammed",
     image: "/Wanis.png",
     description: "AI Student, and Entrepreneur building creative tech experiences",
     role: "Founder & Creative Director at Zidny | AI Student",

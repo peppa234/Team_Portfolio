@@ -4,9 +4,11 @@ Welcome to the Evkeria Team portfolio! This website showcases our team of ENSIA 
 
 ## Team Members
 
-- **Aicha** - 3rd Year AI student passionate about AI
-- **Chaima** - 3rd Year AI student passionate about AI
-- **Wassim** - 3rd Year AI student passionate about AI
+- **Aicha Brihmouche** - A 3rd Year AI student | Associtae Data Sceintist | Web Developer | Graphic & UIUX Designer
+- **Chaima Taberkokt** - 3rd Year AI student passionate about AI
+- **Wassim Taleb** - 3rd Year AI student passionate about AI
+- **Mohamed Kecir** - A 3rd Year ENSIA Student & Passionate Developer
+- **Wanis Hadj Mohammed** - AI Student, and Entrepreneur building creative tech experiences 
 
 ## About This Project
 
@@ -20,36 +22,6 @@ We are a team of ENSIA software engineering students working collaboratively on 
 - **Build Tool**: Vite
 - **Fonts**: Sora, Parkinsans, Inter
 
-## Getting Started
-
-> **Prerequisites:**
-> [NodeJS](https://nodejs.org/en/) must be installed on your system.
-
-### Installation
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-The site will be available at [http://localhost:5173/](http://localhost:5173/)
-
-### Production Build
-
-Build the project for production:
-
-```bash
-npm run build
-```
 
 ## Project Structure
 
