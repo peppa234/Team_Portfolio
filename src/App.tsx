@@ -13,7 +13,7 @@ import { Portfolio } from "./screens/Portfolio";
  */
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Team_Portfolio">
       <Routes>
         <Route path="/" element={<Desktop />} />
         <Route path="/portfolios" element={<PortfolioList />} />
