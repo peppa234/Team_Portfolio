@@ -49,12 +49,12 @@ export const Portfolio = (): JSX.Element => {
       <main>
         {/* Hero Section with Member Info */}
         <section id="home" className="px-4 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12">
-          <div className="relative bg-black rounded-[3rem] md:rounded-[5rem] lg:rounded-[7rem] shadow-[0px_4px_4px_#00000040,0px_4px_4px_#00000040,-11px_4px_8.9px_#00000040,9px_4px_10.3px_#000000a3] px-6 sm:px-8 md:px-10 lg:px-12 py-8 md:py-12 lg:py-16">
+          <div className="relative bg-black rounded-[3rem] md:rounded-[5rem] lg:rounded-[7rem] shadow-[0px_4px_4px_#00000040,0px_4px_4px_#00000040,-11px_4px_8.9px_#00000040,9px_4px_10.3px_#000000a3] px-6 sm:px-8 md:px-10 lg:px-12 py-8 md:py-12 lg:py-16 max-w-7xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
               {/* Text Content */}
               <div className="flex-1 w-full">
                 <h1 className="[font-family:'Sora',Helvetica] font-bold text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-wide leading-tight mb-6 md:mb-8">
-                  HELLO ,
+                  Hi, I'm {member.name}
                 </h1>
 
                 <div className="flex flex-col gap-6">
@@ -181,12 +181,20 @@ export const Portfolio = (): JSX.Element => {
                 key={project.id} 
                 className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-6 md:gap-8 lg:gap-12`}
               >
-                {/* Project Image Placeholder */}
-                <Card className="w-full lg:w-1/2 aspect-video bg-white rounded-3xl shadow-[9px_4px_10.3px_#00000026,-5px_4px_13.7px_#00000040,0px_-6px_11.8px_#00000040]">
-                  <CardContent className="w-full h-full flex items-center justify-center">
-                    <span className="[font-family:'Sora',Helvetica] font-semibold text-gray-400 text-lg md:text-xl">
-                      Project Image
-                    </span>
+                {/* Project Image */}
+                <Card className="w-full lg:w-1/2 aspect-video bg-white rounded-3xl shadow-[9px_4px_10.3px_#00000026,-5px_4px_13.7px_#00000040,0px_-6px_11.8px_#00000040] overflow-hidden">
+                  <CardContent className="w-full h-full p-0 flex items-center justify-center">
+                    {project.image ? (
+                      <img 
+                        src={project.image} 
+                        alt={project.title}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <span className="[font-family:'Sora',Helvetica] font-semibold text-gray-400 text-lg md:text-xl">
+                        Project Image
+                      </span>
+                    )}
                   </CardContent>
                 </Card>
 

@@ -11,6 +11,7 @@ export interface TeamMember {
     id: number;
     title: string;
     description: string;
+    image?: string;
   }[];
   contactInfo: {
     github?: string;
