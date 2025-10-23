@@ -25,19 +25,19 @@ export const Portfolio = (): JSX.Element => {
   // Prepare contact cards from member data
   const contactCards = [
     {
-      icon: "/frame-1.svg",
+      icon: "/Team_Portfolio/frame-1.svg",
       title: "GitHub",
       description: "View my repositories",
       link: member.contactInfo.github,
     },
     {
-      icon: "/frame.svg",
+      icon: "/Team_Portfolio/frame.svg",
       title: "LinkedIn",
       description: "Professional network",
       link: member.contactInfo.linkedin,
     },
     {
-      icon: "/frame-2.svg",
+      icon: "/Team_Portfolio/frame-2.svg",
       title: "Email",
       description: "Send me a message",
       link: member.contactInfo.email ? `mailto:${member.contactInfo.email}` : undefined,
@@ -169,10 +169,10 @@ export const Portfolio = (): JSX.Element => {
 
           {/* Decorative elements - hidden on mobile */}
           <div className="hidden lg:block absolute top-20 right-24 opacity-70">
-            <img className="w-10 h-10" alt="Decoration" src="/vector-5.svg" />
+            <img className="w-10 h-10" alt="Decoration" src="/Team_Portfolio/vector-5.svg" />
           </div>
           <div className="hidden lg:block absolute top-24 right-20 opacity-70">
-            <img className="w-10 h-10" alt="Decoration" src="/vector-5.svg" />
+            <img className="w-10 h-10" alt="Decoration" src="/Team_Portfolio/vector-5.svg" />
           </div>
 
           <div className="flex flex-col gap-12 md:gap-16 lg:gap-24 max-w-6xl mx-auto">

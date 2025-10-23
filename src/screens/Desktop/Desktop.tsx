@@ -9,27 +9,27 @@ import { Footer } from "../../components/Footer";
 const teamMembers = [
   {
     name: "Chaima",
-    image: "/Chaima.png",
+    image: "/Team_Portfolio/Chaima.png",
     description: "A 3rd Year AI student passionate about AI",
   },
   {
     name: "Wassim",
-    image: "/Wassim.png",
+    image: "/Team_Portfolio/Wassim.png",
     description: "A 3rd Year AI student passionate about AI",
   },
   {
     name: "Aicha",
-    image: "/Aicha.png",
+    image: "/Team_Portfolio/Aicha.png",
     description: "A 3rd Year AI student passionate about AI",
   },
   {
     name: "Mohamed",
-    image: "/Mohamed.png",
+    image: "/Team_Portfolio/Mohamed.png",
     description: "A 3rd Year AI student passionate about AI",
   },
   {
     name: "Wanis",
-    image: "/Wanis.png",
+    image: "/Team_Portfolio/Wanis.png",
     description: "A 3rd Year AI student passionate about AI",
   },
 ];
@@ -123,19 +123,19 @@ export const Desktop = (): JSX.Element => {
               <img
                 className="absolute left-0 bottom-0 w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 h-12 sm:h-14 md:h-16 lg:h-20 xl:h-24 animate-fade-in opacity-90 z-10"
                 alt="Vector"
-                src="/vector-2.svg"
+                src="/Team_Portfolio/vector-2.svg"
                 style={{ animationDelay: "0.35s" }}
               />
               <img
                 className="absolute right-0 top-0 w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 h-12 sm:h-14 md:h-16 lg:h-20 xl:h-24 animate-fade-in opacity-90 z-20"
                 alt="Vector"
-                src="/vector-1.svg"
+                src="/Team_Portfolio/vector-1.svg"
                 style={{ animationDelay: "0.35s" }}
               />
               <img
                 className="relative z-0 w-full h-auto object-cover animate-fade-in transition-transform duration-500 hover:scale-105"
                 alt="Element team spirit"
-                src="/558-team-spirit-1.png"
+                src="/Team_Portfolio/558-team-spirit-1.png"
                 style={{ animationDelay: "0.2s" }}
               />
             </div>
@@ -157,8 +157,8 @@ export const Desktop = (): JSX.Element => {
           <div className="bg-black rounded-[3rem] md:rounded-[5rem] lg:rounded-[7rem] shadow-[0px_4px_4px_#00000040,0px_4px_4px_#00000040,-11px_4px_8.9px_#00000040,9px_4px_10.3px_#000000a3] transition-shadow duration-500 hover:shadow-[0px_6px_6px_#00000040,0px_6px_6px_#00000040,-13px_6px_12px_#00000040,11px_6px_14px_#000000a3] py-12 md:py-16 lg:py-20 px-6 sm:px-8 md:px-12 lg:px-16 relative">
             {/* Decorative Vectors */}
             <div className="absolute top-8 right-8 md:top-10 md:right-12 flex flex-col gap-2 md:gap-4">
-              <img className="w-8 md:w-10 h-8 md:h-10" alt="Vector" src="/vector-3.svg" />
-              <img className="w-8 md:w-10 h-8 md:h-10" alt="Vector" src="/vector-3.svg" />
+              <img className="w-8 md:w-10 h-8 md:h-10" alt="Vector" src="/Team_Portfolio/vector-3.svg" />
+              <img className="w-8 md:w-10 h-8 md:h-10" alt="Vector" src="/Team_Portfolio/vector-3.svg" />
             </div>
 
             <h2 className="[text-shadow:0px_4px_25.7px_#ffffff96] [font-family:'Parkinsans',Helvetica] font-normal text-transparent text-center mb-8 md:mb-12 lg:mb-16">
@@ -187,7 +187,7 @@ export const Desktop = (): JSX.Element => {
           <img
             className="w-64 xl:w-80 h-64 xl:h-80 rounded-full object-cover animate-fade-in transition-transform duration-500 hover:scale-105 hover:rotate-3 shadow-xl"
             alt="My notion face"
-            src="/my-notion-face-portrait-1.png"
+            src="/Team_Portfolio/my-notion-face-portrait-1.png"
             style={{ animationDelay: "0.5s" }}
           />
         </div>
@@ -246,7 +246,7 @@ export const Desktop = (): JSX.Element => {
               <img
                 className="w-full max-w-md lg:max-w-lg object-cover animate-fade-in transition-transform duration-500 hover:scale-105 rounded-lg"
                 alt="Team"
-                src="/image-1.png"
+                src="/Team_Portfolio/image-1.png"
                 style={{ animationDelay: "0.9s" }}
               />
             </div>

@@ -4,7 +4,7 @@ export const teamMembers: TeamMember[] = [
   {
     slug: "chaima",
     name: "Chaima Taberkokt",
-    image: "/Chaima.png",
+    image: "/Team_Portfolio/Chaima.png",
     description: "A 3rd Year AI student passionate about AI",
     role: "Web & Python Developer",
     bio: "I'm Chaima Taberkokt, a Web developer and Python developer who enjoys designing and building modern and responsive websites. I like using Python to solve problems and automate tasks, and I'm always learning new technologies to improve my work and create practical, easy-to-use projects.",
@@ -31,14 +31,14 @@ export const teamMembers: TeamMember[] = [
         title: "Resource Optimization System",
         description:
           "A full stack AI system that optimizes the management of resources : water, fertilizer, irrigation in smart farming, minimizing resource usage while maximizing crop yield and maintaining crop health.",
-        image: "/chaima_projet_1.png",
+        image: "/Team_Portfolio/chaima_projet_1.png",
       },
       {
         id: 2,
         title: "Predictive Maintenance System",
         description:
           "An AI system that monitors aircraft sensors in real time, detects early anomalies, and provides predictive maintenance alerts. It suggests solutions to pilots, prevents failures before they occur, and enhances overall flight safety.",
-        image: "/chaima_projet2.jpg",
+        image: "/Team_Portfolio/chaima_projet2.jpg",
       },
     ],
     contactInfo: {
@@ -51,7 +51,7 @@ export const teamMembers: TeamMember[] = [
   {
     slug: "wassim",
     name: "Wassim Taleb",
-    image: "/Wassim.png",
+    image: "/Team_Portfolio/Wassim.png",
     description: "A 3rd Year AI student passionate about AI",
     role: "AI & Machine Learning Engineer",
     bio: "Passionate about artificial intelligence, full-stack development, and creative media. I specialize in building intelligent systems, editing engaging video content, and innovating modern tech stacks that blend AI with user-friendly design.",
@@ -83,21 +83,21 @@ export const teamMembers: TeamMember[] = [
         title: "Touristic Tour Recommendation App",
         description:
           "An AI-based travel planner that recommends personalized one-week itineraries in Algeria based on user preferences, budget, and interests.",
-        image: "/wassim_projet1.jpg",
+        image: "/Team_Portfolio/wassim_projet1.jpg",
       },
       {
         id: 2,
         title: "Intelligent Video Editing Automation",
         description:
           "A project combining AI and video processing to automate scene detection, captioning, and enhancement in multimedia content.",
-        image: "/wassim_projet2.jpg",
+        image: "/Team_Portfolio/wassim_projet2.jpg",
       },
       {
         id: 3,
         title: "Supermarket Management System",
         description:
           "A desktop and mobile system designed to manage supermarket operations, including product inventory, billing, and real-time sales analytics using a modern full-stack approach.",
-        image: "/wassim_projet3.png",
+        image: "/Team_Portfolio/wassim_projet3.png",
       },
     ],
     contactInfo: {
@@ -110,7 +110,7 @@ export const teamMembers: TeamMember[] = [
   {
     slug: "aicha",
     name: "Aicha Brihmouche",
-    image: "/Aicha.png",
+    image: "/Team_Portfolio/Aicha.png",
     description: "A 3rd Year AI student | Associtae Data Sceintist | Web Developer | Graphic & UIUX Designer",
     role: "Team Leader",
     bio: "Graphic and UI/UX Designer, Web Developer, and Associate Data Scientist. I'm currently studying Artificial Intelligence at ENSIA.",
@@ -140,14 +140,14 @@ export const teamMembers: TeamMember[] = [
         title: "7wess – AI Touristic App",
         description:
           "Trip planning assistant using AI Algorithms for 7-day itineraries.",
-        image: "/aicha_projet1.png",
+        image: "/Team_Portfolio/aicha_projet1.png",
       },
       {
         id: 2,
         title: "Student Portal Platform",
         description:
           "A modern, full-stack school management application built with Node.js, Express, MongoDB, React, and TypeScript. This comprehensive system provides administrators with complete tools to manage students, teachers, classes, and subjects through a beautiful, responsive interface.",
-        image: "/aicha_projet2.png",
+        image: "/Team_Portfolio/aicha_projet2.png",
       },
     ],
     contactInfo: {
@@ -160,7 +160,7 @@ export const teamMembers: TeamMember[] = [
   {
     slug: "mohamed",
     name: "Mohamed Kecir",
-    image: "/Mohamed.png",
+    image: "/Team_Portfolio/Mohamed.png",
     description: "A 3rd Year ENSIA Student & Passionate Developer",
     role: "Frontend Developer",
     bio: "Frontend Developer specializing in React, JavaScript, and modern CSS. Passionate about creating intuitive user interfaces, responsive designs, and optimizing user experiences across all devices and browsers.",
@@ -185,14 +185,14 @@ export const teamMembers: TeamMember[] = [
         title: "Algerian Freelance Marketplace",
         description:
           "A Fiverr-inspired platform connecting Algerian freelancers with local clients. Search and book services across various categories within Algeria.",
-        image: "/mohamed_projet1.avif",
+        image: "/Team_Portfolio/mohamed_projet1.avif",
       },
       {
         id: 2,
         title: "Daily Food Recommendations",
         description:
           "AI-powered daily food recommendations based on your preferences, dietary needs, and local ingredients availability.",
-        image: "/mohamed_projet2.jpg",
+        image: "/Team_Portfolio/mohamed_projet2.jpg",
       },
     ],
     contactInfo: {
@@ -205,7 +205,7 @@ export const teamMembers: TeamMember[] = [
   {
     slug: "wanis",
     name: "Wanis Hadj Mohammed",
-    image: "/Wanis.png",
+    image: "/Team_Portfolio/Wanis.png",
     description: "AI Student, and Entrepreneur building creative tech experiences",
     role: "Founder & Creative Director at Zidny | AI Student",
     bio: "An entrepreneur passionate about blending art, technology, and education. As the founder of Zidny, I lead projects that empower youth through creativity, innovation, and learning. With a background in AI and storytelling, I bring emotion and clarity into everything I design, film, or build.",
@@ -232,7 +232,7 @@ export const teamMembers: TeamMember[] = [
         title: "Zidny",
         description:
           "An educational and creative startup that empowers young people to learn, grow, and create through digital innovation, workshops, and storytelling.",
-        image: "/wanis_projet1.jpg",
+        image: "/Team_Portfolio/wanis_projet1.jpg",
       },
     ],
     contactInfo: {
