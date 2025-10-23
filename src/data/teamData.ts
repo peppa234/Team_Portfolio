@@ -101,9 +101,9 @@ export const teamMembers: TeamMember[] = [
       },
     ],
     contactInfo: {
-      github: "https://github.com/wassim",
+      github: "https://github.com/WassimTaleb2005",
       linkedin: "https://linkedin.com/in/wassim",
-      email: "wassim@example.com",
+      email: "wassim.taleb@ensia.edu.dz",
     },
 
   },
