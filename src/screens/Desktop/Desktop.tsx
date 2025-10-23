@@ -60,11 +60,11 @@ export const Desktop = (): JSX.Element => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           
           {/* Hero Title - "Discover The Bright Minds of Evkeria Team" */}
-          <div className="flex justify-center mb-4 md:mb-6 lg:mb-8">
+          <div className="flex justify-center mb-8 md:mb-10 lg:mb-12">
             <div 
-              className="font-[Sora] relative w-[350px] h-[120px] max-sm:w-[350px] max-sm:h-[120px] max-lg:w-[800px] max-lg:h-[90px] lg:w-[1094px] lg:h-[121px]"
+              className="font-[Sora] relative w-[350px] min-h-[140px] max-sm:w-[350px] max-sm:min-h-[140px] max-lg:w-[800px] max-lg:min-h-[90px] lg:w-[1094px] lg:min-h-[121px]"
             >
-              <div className="flex flex-wrap items-center justify-center gap-2 h-full">
+              <div className="flex flex-wrap items-center justify-center gap-2 min-h-full pb-4">
                 {/* Left part - "Discover The" */}
                 <span 
                   className="text-[24px] max-lg:text-[36px] lg:text-[48px] font-[700] leading-normal tracking-[0.24px] max-lg:tracking-[0.36px] lg:tracking-[0.48px] text-[#000000] drop-shadow-[0_4px_7.1px_rgba(0,0,0,0.27)] animate-fade-in"
@@ -117,7 +117,7 @@ export const Desktop = (): JSX.Element => {
           </div>
 
           {/* Hero Image with Vectors */}
-          <div className="relative flex items-center justify-center mb-4 md:mb-6 lg:mb-8">
+          <div className="relative flex items-center justify-center mb-4 md:mb-6 lg:mb-8 mt-6 md:mt-8">
             <div className="relative w-full max-w-xl md:max-w-2xl lg:max-w-3xl xl:max-w-4xl px-6 sm:px-8 md:px-10 lg:px-12 py-4 sm:py-6 md:py-8 lg:py-10">
               {/* Decorative Vectors - positioned at corners */}
               <img
