@@ -272,14 +272,22 @@ export const Desktop = (): JSX.Element => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-                <Button className="w-full sm:w-auto h-auto py-4 md:py-5 px-8 md:px-10 bg-black rounded-[2rem] hover:bg-black/90 hover:scale-105 hover:shadow-[0px_6px_20px_#00000060] transition-all duration-300">
-                  <span className="[text-shadow:0px_4px_4px_#00000040] font-bold text-white text-base md:text-lg lg:text-xl tracking-wide [font-family:'Sora',Helvetica] leading-normal">
-                    Discover More
-                  </span>
-                </Button>
+                <Link to="/portfolios" className="w-full sm:w-auto">
+                  <Button className="w-full h-auto py-4 md:py-5 px-8 md:px-10 bg-black rounded-[2rem] hover:bg-black/90 hover:scale-105 hover:shadow-[0px_6px_20px_#00000060] transition-all duration-300">
+                    <span className="[text-shadow:0px_4px_4px_#00000040] font-bold text-white text-base md:text-lg lg:text-xl tracking-wide [font-family:'Sora',Helvetica] leading-normal">
+                      Discover More
+                    </span>
+                  </Button>
+                </Link>
 
                 <Button
                   variant="outline"
+                  onClick={() => {
+                    const footer = document.querySelector('footer');
+                    if (footer) {
+                      footer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                  }}
                   className="w-full sm:w-auto h-auto py-4 md:py-5 px-8 md:px-10 rounded-[2rem] border-2 md:border-[3px] border-solid border-black hover:bg-black/5 hover:scale-105 hover:shadow-[0px_6px_20px_#00000030] transition-all duration-300"
                 >
                   <span className="[text-shadow:0px_4px_4px_#00000040] [font-family:'Sora',Helvetica] font-bold text-black text-base md:text-lg lg:text-xl tracking-wide leading-normal">
